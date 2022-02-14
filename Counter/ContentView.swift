@@ -8,11 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var totalCount = 0
+    
     var body: some View {
         VStack {
             Spacer()
             
-            Text("1234")
+            Text(String(format: "%04d", totalCount))
                 .font(.largeTitle)
                 .frame(width: 150.0, height: 50.0)
                 .border(Color.blue)
