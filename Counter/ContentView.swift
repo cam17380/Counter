@@ -32,7 +32,7 @@ struct ContentView: View {
             Spacer()
             
             Button("リセット") {
-                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                totalCount = 0
             }
             .frame(width: 150.0, height: 50.0)
             .foregroundColor(Color.black)
