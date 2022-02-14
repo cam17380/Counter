@@ -22,7 +22,7 @@ struct ContentView: View {
             Spacer()
             
             Button("+1") {
-                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+                totalCount += 1
             }
             .frame(width: 70.0, height: 50.0)
             .foregroundColor(Color.black)
