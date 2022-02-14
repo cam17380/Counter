@@ -29,6 +29,14 @@ struct ContentView: View {
             .background(Color.blue)
             .cornerRadius(24)
             
+            Button("+10") {
+                totalCount += 10
+            }
+            .frame(width: 70.0, height: 50.0)
+            .foregroundColor(Color.black)
+            .background(Color.blue)
+            .cornerRadius(24)
+            
             Spacer()
             
             Button("リセット") {
